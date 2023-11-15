@@ -69,10 +69,11 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## HOW TO RUN!!!
 
 1. Install xampp for php version 8 and add php to your .zshrc variable (https://www.apachefriends.org/download.html)
-2. Intall composer (brew install composer)
+2. Install composer (brew install composer)
 3. open xampp manager, turn on MySQL & Apache service
 4. clone this project
 5. generate .env --> cp .env.example .env
 6. db migration --> php artisan migrate
 7. run server --> php artisan serve
-8. enjoy the api!
+8. open the collection
+9. enjoy the api!
