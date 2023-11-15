@@ -64,3 +64,15 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## HOW TO RUN!!!
+
+1. Install xampp for php version 8 and add php to your .zshrc variable (https://www.apachefriends.org/download.html)
+2. Intall composer (brew install composer)
+3. open xampp manager, turn on MySQL & Apache service
+4. clone this project
+5. generate .env --> cp .env.example .env
+6. db migration --> php artisan migrate
+7. run server --> php artisan serve
+8. enjoy the api!
