@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Api\AutomationController;
+use App\Http\Controllers\Api\ChartController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -26,5 +27,6 @@ Route::get('automations/{id}/edit', [AutomationController::class, 'edit']);
 Route::put('automations/{id}/edit', [AutomationController::class, 'update']);
 Route::delete('automations/{id}/delete', [AutomationController::class, 'destroy']);
 
+Route::get('charts/total_schenario', [ChartController::class,'total_scenario']);
 
 
